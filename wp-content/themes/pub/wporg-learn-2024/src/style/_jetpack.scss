@@ -8,10 +8,6 @@
 	font-weight: 600;
 }
 
-.wp-block-jetpack-contact-form .wp-block-button__link {
-	height: auto;
-}
-
 .wp-block-jetpack-contact-form-container .contact-form {
 	.grunion-checkbox-multiple-options legend,
 	.grunion-radio-options legend,
@@ -29,5 +25,11 @@
 	.contact-form__select-wrapper::after {
 		inset-inline-end: calc(var(--jetpack--contact-form--input-padding-left) + 3px);
 		top: calc(var(--jetpack--contact-form--input-padding-top) + var(--jetpack--contact-form--line-height) / 2);
+	}
+
+	.wp-block-jetpack-button {
+		.wp-block-button__link {
+			height: auto;
+		}
 	}
 }
